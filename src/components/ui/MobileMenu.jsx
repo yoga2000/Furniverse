@@ -27,10 +27,13 @@ const MobileMenu = ({ setMenuDiv, menuDiv }) => {
           );
         })}
       </ul>
-      <button className="  justify-center p-2  w-full text-2xl sm:text-3xl flex items-center gap-2">
+      <Link
+        to="/cart"
+        className="  justify-center p-2  w-full text-2xl sm:text-3xl flex items-center gap-2"
+      >
         Cart
         <img className="" src={cart} height={40} width={40} alt="cart img" />
-      </button>
+      </Link>
     </div>
   );
 };
