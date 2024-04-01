@@ -1,0 +1,4 @@
+'#A8D8EA'
+#AA96DA
+"#FCBAD3"
+"#FFFFD2"

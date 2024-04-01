@@ -1,0 +1,15 @@
+export const GET_PRODUCT_SUCCESS = "GET_PRODUCTS";
+export const GET_PRODUCT_ERROR = "GET_PRODUCTS_ERROR";
+export const GET_PRODUCT_LOADING = "GET_PRODUCTS_LOADING";
+export const GET_SINGLE_PRODUCT = "GET_SINGLE_PRODUCT";
+export const GET_SINGLE_PRODUCT_LOADING = "GET_SINGLE_PRODUCT_LOADING";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const DELETE_TO_CART = "DELETE_TO_CART";
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
+export const SET_CART = "SET_CART";
+export const STOCK = "STOCK";
+export const SORT_BY_PRICE = "SORT BY PRICE";
+export const RATING = "RATING";
+export const CATEGORY = "CATEGORY";
+export const CLEAR_FILTER = "CLEAR";
