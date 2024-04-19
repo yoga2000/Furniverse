@@ -16,6 +16,6 @@ export const links = [
   },
 ];
 
-export const URL = "https://course-api.com/react-store-products";
+export const URL = "https://www.course-api.com/react-store-products";
 export const SINGLE_PRODUCT_URL =
-  "https://course-api.com/react-store-single-product?id=";
+  "https://www.course-api.com/react-store-single-product?id=";

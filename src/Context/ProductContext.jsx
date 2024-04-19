@@ -43,7 +43,7 @@ const ProductContexProvider = ({ children }) => {
         dispatch({ type: GET_PRODUCT_SUCCESS, payload: data });
       } catch (error) {
         dispatch({ type: GET_PRODUCT_ERROR });
-        throw Error(` fetching failed  ${error.message}`);
+        throw Error(` products fetching failed   ${error.message}`);
       }
     };
     fetchData();

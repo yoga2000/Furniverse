@@ -6,6 +6,9 @@ import { Loading } from "../Loading/Loading";
 const FeaturedPage = () => {
   const { featuredProducts, loading } = useProduct();
   const featured = featuredProducts && featuredProducts.slice(0, 3);
+  {
+    console.log(featuredProducts);
+  }
 
   if (loading) {
     return (
